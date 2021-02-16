@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="編集ボタン">2a42b4f62f8220107cd3af5df699b6b9</button>
+        <item_parameter display_value="Approval register_account">6242b4f62f8220107cd3af5df699b6b4</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 06:09:21</sys_created_on>
+        <sys_id>f242b4f62f8220107cd3af5df699b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6242b4f62f8220107cd3af5df699b6b4</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_f242b4f62f8220107cd3af5df699b6de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 06:09:21</sys_updated_on>
+        <ui_parameter display_value="Register account">fe42b4f62f8220107cd3af5df699b6cc</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

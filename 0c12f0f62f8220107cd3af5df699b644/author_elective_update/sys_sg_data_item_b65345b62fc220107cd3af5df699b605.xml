@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>承認（変更管理）</name>
+        <query_condition table="sysapproval_approver">sysapprovalSTARTSWITH{{Approval for}}<item endquery="false" field="sysapproval" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Approval for}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:23:55</sys_created_on>
+        <sys_id>b65345b62fc220107cd3af5df699b605</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>承認（変更管理）</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_data_item_b65345b62fc220107cd3af5df699b605</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:25:21</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=b65345b62fc220107cd3af5df699b605"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</application>
+        <file_path/>
+        <instance_id>0442b350db3b9b441ddcf22ebf961927</instance_id>
+        <instance_name>dev68850</instance_name>
+        <name>sys_sg_data_item_b65345b62fc220107cd3af5df699b605</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><instance_relative_url_qc/><name>承認（変更管理）</name><query_condition table="sysapproval_approver">sysapprovalSTARTSWITH{{Approval for}}<item endquery="false" field="sysapproval" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Approval for}}"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>takamshimizu</sys_created_by><sys_created_on>2021-02-04 07:23:55</sys_created_on><sys_id>b65345b62fc220107cd3af5df699b605</sys_id><sys_mod_count>1</sys_mod_count><sys_name>承認（変更管理）</sys_name><sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package><sys_policy/><sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope><sys_update_name>sys_sg_data_item_b65345b62fc220107cd3af5df699b605</sys_update_name><sys_updated_by>takamshimizu</sys_updated_by><sys_updated_on>2021-02-04 07:25:21</sys_updated_on><table>sysapproval_approver</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=b65345b62fc220107cd3af5df699b605"/></record_update>]]></payload>
+        <payload_hash>-352986218</payload_hash>
+        <record_name>承認（変更管理）</record_name>
+        <reverted_from/>
+        <source>c012f0f62f8220107cd3af5df699b647</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:25:21</sys_created_on>
+        <sys_id>37a385b62fc220107cd3af5df699b643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776bee63c60000001</sys_recorded_at>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:25:21</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>fba385b699c22010bfe55a74e33d1c42</update_guid>
+        <update_guid_history>fba385b699c22010bfe55a74e33d1c42:-352986218,f25349b60dc220103fe771485a0359f0:-1703743752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:42:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>b0e3e15866844e169531388f59162144</sys_id>
+        <sys_metadata>b65345b62fc220107cd3af5df699b605</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認（変更管理）</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_scope_delete display_value="">4402f560479645daa80ff86a5521c9f9</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_b65345b62fc220107cd3af5df699b605</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_b65345b62fc220107cd3af5df699b605">37a385b62fc220107cd3af5df699b643</sys_update_version>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:42:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

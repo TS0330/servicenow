@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>編集</name>
+        <query_condition table="sysapproval_approver">sys_idSTARTSWITH{{Approval sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Approval sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 06:09:21</sys_created_on>
+        <sys_id>ae42b4f62f8220107cd3af5df699b6a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>編集</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_ae42b4f62f8220107cd3af5df699b6a0</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-05 00:40:40</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <template>approval_column={{Approval approval_column}}^approval_journal_column={{Approval approval_journal_column}}^approval_source={{Approval approval_source}}^approver={{Approval approver}}^comments={{Approval comments}}^document_id={{Approval document_id}}^due_date={{Approval due_date}}^expected_start={{Approval expected_start}}^group={{Approval group}}^iteration={{Approval iteration}}^order={{Approval order}}^process_step={{Approval process_step}}^register_account={{Approval register_account}}^register_email={{Approval register_email}}^register_name={{Approval register_name}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=ae42b4f62f8220107cd3af5df699b6a0"/>
+</record_update>

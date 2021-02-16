@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition">
+    <sys_sg_filter_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label>Created by</label>
+        <name>承認 sys_created_by filter condition</name>
+        <sys_class_name>sys_sg_filter_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 06:17:13</sys_created_on>
+        <sys_id>0214707a2f8220107cd3af5df699b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認 sys_created_by filter condition</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_0214707a2f8220107cd3af5df699b65b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 06:17:13</sys_updated_on>
+        <type display_value="String">1bcf83da73320010ed095a7b1bf6a7e2</type>
+    </sys_sg_filter_condition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0214707a2f8220107cd3af5df699b65b"/>
+</record_update>

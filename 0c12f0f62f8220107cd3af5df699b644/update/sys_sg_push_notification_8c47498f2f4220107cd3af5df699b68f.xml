@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_push_notification">
+    <sys_sg_push_notification action="INSERT_OR_UPDATE">
+        <actionable>false</actionable>
+        <category/>
+        <name>承認依頼</name>
+        <screen display_value="承認一覧（リクエストのみ）フォーム">c89c09be2fc220107cd3af5df699b63c</screen>
+        <sys_class_name>sys_sg_push_notification</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-05 02:19:49</sys_created_on>
+        <sys_id>8c47498f2f4220107cd3af5df699b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認依頼</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_push_notification_8c47498f2f4220107cd3af5df699b68f</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-05 02:19:49</sys_updated_on>
+    </sys_sg_push_notification>
+</record_update>

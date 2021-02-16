@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>承認一覧（ステータス選択）</name>
+        <query_condition table="sysapproval_approver">stateIN{{state}}<item display_value="{{state}}" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="{{state}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 06:09:19</sys_created_on>
+        <sys_id>5e42b4f62f8220107cd3af5df699b61b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>承認一覧（ステータス選択）</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_data_item_5e42b4f62f8220107cd3af5df699b61b</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:54:43</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e42b4f62f8220107cd3af5df699b61b"/>
+</record_update>

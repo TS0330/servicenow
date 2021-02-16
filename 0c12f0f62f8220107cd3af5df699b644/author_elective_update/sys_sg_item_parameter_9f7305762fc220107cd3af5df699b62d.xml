@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="DELETE">
+        <default_value/>
+        <name>Approval for</name>
+        <parent>b65345b62fc220107cd3af5df699b605</parent>
+        <parent_table>sys_sg_data_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:24:30</sys_created_on>
+        <sys_id>9f7305762fc220107cd3af5df699b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval for</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_9f7305762fc220107cd3af5df699b62d</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:24:30</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</application>
+        <file_path/>
+        <instance_id>0442b350db3b9b441ddcf22ebf961927</instance_id>
+        <instance_name>dev68850</instance_name>
+        <name>sys_sg_item_parameter_9f7305762fc220107cd3af5df699b62d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter"><sys_sg_item_parameter action="INSERT_OR_UPDATE"><default_value/><name>Approval for</name><parent>b65345b62fc220107cd3af5df699b605</parent><parent_table>sys_sg_data_item</parent_table><sys_class_name>sys_sg_item_parameter</sys_class_name><sys_created_by>takamshimizu</sys_created_by><sys_created_on>2021-02-04 07:24:30</sys_created_on><sys_id>9f7305762fc220107cd3af5df699b62d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approval for</sys_name><sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package><sys_policy/><sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope><sys_update_name>sys_sg_item_parameter_9f7305762fc220107cd3af5df699b62d</sys_update_name><sys_updated_by>takamshimizu</sys_updated_by><sys_updated_on>2021-02-04 07:24:30</sys_updated_on><type>string</type></sys_sg_item_parameter></record_update>]]></payload>
+        <payload_hash>-687400975</payload_hash>
+        <record_name>Approval for</record_name>
+        <reverted_from/>
+        <source>c012f0f62f8220107cd3af5df699b647</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:24:30</sys_created_on>
+        <sys_id>2b7305762fc220107cd3af5df699b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776bed9cb80000001</sys_recorded_at>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:24:30</sys_updated_on>
+        <type>Item Parameter</type>
+        <update_guid>23730576e7c22010084470a170affd30</update_guid>
+        <update_guid_history>23730576e7c22010084470a170affd30:-687400975</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:42:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_parameter">sys_sg_item_parameter</sys_db_object>
+        <sys_id>11356dd835aa4a5a83dbf14a428ecb24</sys_id>
+        <sys_metadata>9f7305762fc220107cd3af5df699b62d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval for</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_scope_delete display_value="">4402f560479645daa80ff86a5521c9f9</sys_scope_delete>
+        <sys_update_name>sys_sg_item_parameter_9f7305762fc220107cd3af5df699b62d</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_parameter_9f7305762fc220107cd3af5df699b62d">2b7305762fc220107cd3af5df699b630</sys_update_version>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:42:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

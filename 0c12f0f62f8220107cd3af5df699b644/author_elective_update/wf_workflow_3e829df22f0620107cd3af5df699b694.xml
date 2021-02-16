@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["b2829df22f0620107cd3af5df699b698"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="sc_request">approval=requested^EQ<item display_value="Requested" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description>リクエストデモ（モバイル承認確認用）</description>
+        <expected_sequences>36829df22f0620107cd3af5df699b696,f8b211362f0620107cd3af5df699b6a7,a393d1362f0620107cd3af5df699b6f9,b2829df22f0620107cd3af5df699b698</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>36829df22f0620107cd3af5df699b696,f8b211362f0620107cd3af5df699b6a7,a393d1362f0620107cd3af5df699b6f9,90b39d362f0620107cd3af5df699b6d8,b2829df22f0620107cd3af5df699b698</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>リクエストデモ（モバイル承認確認用）</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">36829df22f0620107cd3af5df699b696</start>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:30:16</sys_created_on>
+        <sys_id>9152d9f22f0620107cd3af5df699b6d0</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:36:06</sys_updated_on>
+        <table>sc_request</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="リクエストデモ（モバイル承認確認用）">3e829df22f0620107cd3af5df699b694</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description>リクエストデモ（モバイル承認確認用）</description>
+        <name>リクエストデモ（モバイル承認確認用）</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:30:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e829df22f0620107cd3af5df699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>リクエストデモ（モバイル承認確認用）</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>wf_workflow_3e829df22f0620107cd3af5df699b694</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:30:16</sys_updated_on>
+        <table>sc_request</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:30:16</sys_created_on>
+        <sys_id>36829df22f0620107cd3af5df699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:30:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="リクエストデモ（モバイル承認確認用）">9152d9f22f0620107cd3af5df699b6d0</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=36829df22f0620107cd3af5df699b696"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Begin">36829df22f0620107cd3af5df699b696</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:30:16</sys_created_on>
+        <sys_id>76829df22f0620107cd3af5df699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:30:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:30:16</sys_created_on>
+        <sys_id>b2829df22f0620107cd3af5df699b698</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:49</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="リクエストデモ（モバイル承認確認用）">9152d9f22f0620107cd3af5df699b6d0</workflow_version>
+        <x>607</x>
+        <y>217</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=b2829df22f0620107cd3af5df699b698"/>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>承認</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:12</sys_created_on>
+        <sys_id>a393d1362f0620107cd3af5df699b6f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="リクエストデモ（モバイル承認確認用）">9152d9f22f0620107cd3af5df699b6d0</workflow_version>
+        <x>443</x>
+        <y>37</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=a393d1362f0620107cd3af5df699b6f9"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>a393d1362f0620107cd3af5df699b6f9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:12</sys_created_on>
+        <sys_id>5ba3d9362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:12</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>a393d1362f0620107cd3af5df699b6f9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:12</sys_created_on>
+        <sys_id>5ba3d9362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:12</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="承認">a393d1362f0620107cd3af5df699b6f9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:12</sys_created_on>
+        <sys_id>17a3d9362f0620107cd3af5df699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:12</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Approval - Group">354e911f0a0a029a00e6a0e6ad74206f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>承認</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>f8b211362f0620107cd3af5df699b6a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="リクエストデモ（モバイル承認確認用）">9152d9f22f0620107cd3af5df699b6d0</workflow_version>
+        <x>147</x>
+        <y>47</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=f8b211362f0620107cd3af5df699b6a7"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>11939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>15939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>19939d362f0620107cd3af5df699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&#13;
+//&#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&#13;
+// returning the overall approval state for all of the group(s).&#13;
+//&#13;
+// When called, the following variables are available to the script:&#13;
+//&#13;
+//    Overall for all of the groups that are part of this approval activity:&#13;
+//        counts.total = total number of groups that are part of this approval&#13;
+//        counts.approved = # of groups that approved so far&#13;
+//        counts.rejected = # of groups that rejected so far&#13;
+//        counts.requested = # of groups that are pending approval&#13;
+//        counts.not_requested = # of groups that are not pending approval&#13;
+//        counts.not_required = # of groups that approval is not required&#13;
+//&#13;
+//    And for each group:&#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&#13;
+//        groups[group_id].approved = # of users that approved so far&#13;
+//        groups[group_id].rejected = # of users that rejected so far&#13;
+//        groups[group_id].requested = # of users that are pending approval&#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&#13;
+//        groups[group_id].not_required = # of users that approval is not required&#13;
+//&#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&#13;
+//&#13;
+//        Note: Iterate the groups using:&#13;
+//            for (var id in groups) {&#13;
+//                 var group = groups[id];&#13;
+//                 ...  group.total ...&#13;
+//            }&#13;
+</value>
+        <variable display_value="">069e81530a0a0b264289c1e23fe52558</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>1d939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>any_each</value>
+        <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>51939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>55939d362f0620107cd3af5df699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>55939d362f0620107cd3af5df699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>59939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>5d939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>91939d362f0620107cd3af5df699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>95939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>99939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>9d939d362f0620107cd3af5df699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>aac291362f0620107cd3af5df699b69a</value>
+        <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d1939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d5939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d9939d362f0620107cd3af5df699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d9939d362f0620107cd3af5df699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>dd939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       var answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>5d939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>1d939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>any_each</value>
+        <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d9939d362f0620107cd3af5df699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>91939d362f0620107cd3af5df699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>51939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>9d939d362f0620107cd3af5df699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>aac291362f0620107cd3af5df699b69a</value>
+        <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d5939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>95939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>59939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>99939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d1939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d9939d362f0620107cd3af5df699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>11939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>55939d362f0620107cd3af5df699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>15939d362f0620107cd3af5df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>19939d362f0620107cd3af5df699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&#13;
+//&#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&#13;
+// returning the overall approval state for all of the group(s).&#13;
+//&#13;
+// When called, the following variables are available to the script:&#13;
+//&#13;
+//    Overall for all of the groups that are part of this approval activity:&#13;
+//        counts.total = total number of groups that are part of this approval&#13;
+//        counts.approved = # of groups that approved so far&#13;
+//        counts.rejected = # of groups that rejected so far&#13;
+//        counts.requested = # of groups that are pending approval&#13;
+//        counts.not_requested = # of groups that are not pending approval&#13;
+//        counts.not_required = # of groups that approval is not required&#13;
+//&#13;
+//    And for each group:&#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&#13;
+//        groups[group_id].approved = # of users that approved so far&#13;
+//        groups[group_id].rejected = # of users that rejected so far&#13;
+//        groups[group_id].requested = # of users that are pending approval&#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&#13;
+//        groups[group_id].not_required = # of users that approval is not required&#13;
+//&#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&#13;
+//&#13;
+//        Note: Iterate the groups using:&#13;
+//            for (var id in groups) {&#13;
+//                 var group = groups[id];&#13;
+//                 ...  group.total ...&#13;
+//            }&#13;
+</value>
+        <variable display_value="">069e81530a0a0b264289c1e23fe52558</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>55939d362f0620107cd3af5df699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>f8b211362f0620107cd3af5df699b6a7</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>dd939d362f0620107cd3af5df699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       var answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="承認">f8b211362f0620107cd3af5df699b6a7</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586cdc4c0a0a0b5c00888cdfcb07778b</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>dd939d362f0620107cd3af5df699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="DELETE">
+        <activity display_value="承認">f8b211362f0620107cd3af5df699b6a7</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586d9d960a0a0b5c00509314d15d50d8</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:48</sys_created_on>
+        <sys_id>d1939d362f0620107cd3af5df699b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:48</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>拒否</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:31</sys_created_on>
+        <sys_id>90b39d362f0620107cd3af5df699b6d8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:36:00</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="リクエストデモ（モバイル承認確認用）">9152d9f22f0620107cd3af5df699b6d0</workflow_version>
+        <x>286</x>
+        <y>213</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=90b39d362f0620107cd3af5df699b6d8"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>90b39d362f0620107cd3af5df699b6d8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:31</sys_created_on>
+        <sys_id>f3b3d9362f0620107cd3af5df699b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:31</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>90b39d362f0620107cd3af5df699b6d8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:31</sys_created_on>
+        <sys_id>f3b3d9362f0620107cd3af5df699b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:31</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="拒否">90b39d362f0620107cd3af5df699b6d8</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:31</sys_created_on>
+        <sys_id>3fb3d9362f0620107cd3af5df699b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:31</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">3fb3d9362f0620107cd3af5df699b642</condition>
+        <from display_value="拒否">90b39d362f0620107cd3af5df699b6d8</from>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:52</sys_created_on>
+        <sys_id>20d351762f0620107cd3af5df699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:52</sys_updated_on>
+        <to display_value="End">b2829df22f0620107cd3af5df699b698</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Rejected">d1939d362f0620107cd3af5df699b63f</condition>
+        <from display_value="承認">f8b211362f0620107cd3af5df699b6a7</from>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:43</sys_created_on>
+        <sys_id>56c39d362f0620107cd3af5df699b643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:43</sys_updated_on>
+        <to display_value="拒否">90b39d362f0620107cd3af5df699b6d8</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">17a3d9362f0620107cd3af5df699b63d</condition>
+        <from display_value="承認">a393d1362f0620107cd3af5df699b6f9</from>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:35:56</sys_created_on>
+        <sys_id>7dd3dd362f0620107cd3af5df699b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:56</sys_updated_on>
+        <to display_value="End">b2829df22f0620107cd3af5df699b698</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Approved">dd939d362f0620107cd3af5df699b63d</condition>
+        <from display_value="承認">f8b211362f0620107cd3af5df699b6a7</from>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:34:54</sys_created_on>
+        <sys_id>9293d1362f0620107cd3af5df699b646</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:35:39</sys_updated_on>
+        <to display_value="承認">a393d1362f0620107cd3af5df699b6f9</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">76829df22f0620107cd3af5df699b697</condition>
+        <from display_value="Begin">36829df22f0620107cd3af5df699b696</from>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:30:16</sys_created_on>
+        <sys_id>fa829df22f0620107cd3af5df699b698</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:34:54</sys_updated_on>
+        <to display_value="承認">f8b211362f0620107cd3af5df699b6a7</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="DELETE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:30:16</sys_created_on>
+        <sys_id>7682d5b22f0620107cd3af5df699b680</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:30:16</sys_updated_on>
+        <workflow_version display_value="リクエストデモ（モバイル承認確認用）">9152d9f22f0620107cd3af5df699b6d0</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="DELETE" query="workflow=3e829df22f0620107cd3af5df699b694^sys_id!=9152d9f22f0620107cd3af5df699b6d0">
+        <published>false</published>
+    </wf_workflow_version>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</application>
+        <file_path/>
+        <instance_id>0442b350db3b9b441ddcf22ebf961927</instance_id>
+        <instance_name>dev68850</instance_name>
+        <name>wf_workflow_3e829df22f0620107cd3af5df699b694</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;&lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;activity_stages&gt;{"subflows":[],"stages":{},"activities":{},"ends":["b2829df22f0620107cd3af5df699b698"]}&lt;/activity_stages&gt;&lt;after_business_rules&gt;false&lt;/after_business_rules&gt;&lt;checked_out/&gt;&lt;checked_out_by/&gt;&lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;&lt;condition table="sc_request"&gt;approval=requested^EQ&lt;item display_value="Requested" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="requested"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;condition_type&gt;run_match&lt;/condition_type&gt;&lt;description&gt;リクエストデモ（モバイル承認確認用）&lt;/description&gt;&lt;expected_sequences&gt;36829df22f0620107cd3af5df699b696,f8b211362f0620107cd3af5df699b6a7,a393d1362f0620107cd3af5df699b6f9,b2829df22f0620107cd3af5df699b698&lt;/expected_sequences&gt;&lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;&lt;expected_time_type/&gt;&lt;full_sequences&gt;36829df22f0620107cd3af5df699b696,f8b211362f0620107cd3af5df699b6a7,a393d1362f0620107cd3af5df699b6f9,90b39d362f0620107cd3af5df699b6d8,b2829df22f0620107cd3af5df699b698&lt;/full_sequences&gt;&lt;journal/&gt;&lt;max_activity_count&gt;100&lt;/max_activity_count&gt;&lt;name&gt;リクエストデモ（モバイル承認確認用）&lt;/name&gt;&lt;not_cacheable&gt;false&lt;/not_cacheable&gt;&lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;&lt;order&gt;100&lt;/order&gt;&lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;&lt;published&gt;true&lt;/published&gt;&lt;relative_duration/&gt;&lt;requires_ert&gt;true&lt;/requires_ert&gt;&lt;run_multiple&gt;false&lt;/run_multiple&gt;&lt;schedule/&gt;&lt;stage_field/&gt;&lt;stage_order&gt;computed&lt;/stage_order&gt;&lt;start display_value="Begin"&gt;36829df22f0620107cd3af5df699b696&lt;/start&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:30:16&lt;/sys_created_on&gt;&lt;sys_id&gt;9152d9f22f0620107cd3af5df699b6d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;51&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:36:06&lt;/sys_updated_on&gt;&lt;table&gt;sc_request&lt;/table&gt;&lt;timezone/&gt;&lt;validated&gt;false&lt;/validated&gt;&lt;workflow display_value="リクエストデモ（モバイル承認確認用）"&gt;3e829df22f0620107cd3af5df699b694&lt;/workflow&gt;&lt;/wf_workflow_version&gt;&lt;wf_workflow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;description&gt;リクエストデモ（モバイル承認確認用）&lt;/description&gt;&lt;name&gt;リクエストデモ（モバイル承認確認用）&lt;/name&gt;&lt;preview/&gt;&lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:30:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3e829df22f0620107cd3af5df699b694&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;リクエストデモ（モバイル承認確認用）&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="agent mobile" source="x_515092_agent_mob"&gt;0c12f0f62f8220107cd3af5df699b644&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="agent mobile"&gt;0c12f0f62f8220107cd3af5df699b644&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_3e829df22f0620107cd3af5df699b694&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:30:16&lt;/sys_updated_on&gt;&lt;table&gt;sc_request&lt;/table&gt;&lt;template&gt;false&lt;/template&gt;&lt;vars/&gt;&lt;/wf_workflow&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Begin&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:30:16&lt;/sys_created_on&gt;&lt;sys_id&gt;36829df22f0620107cd3af5df699b696&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:30:16&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="リクエストデモ（モバイル承認確認用）"&gt;9152d9f22f0620107cd3af5df699b6d0&lt;/workflow_version&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=36829df22f0620107cd3af5df699b696"/&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Begin"&gt;36829df22f0620107cd3af5df699b696&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:30:16&lt;/sys_created_on&gt;&lt;sys_id&gt;76829df22f0620107cd3af5df699b697&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:30:16&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;End&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:30:16&lt;/sys_created_on&gt;&lt;sys_id&gt;b2829df22f0620107cd3af5df699b698&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:49&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="リクエストデモ（モバイル承認確認用）"&gt;9152d9f22f0620107cd3af5df699b6d0&lt;/workflow_version&gt;&lt;x&gt;607&lt;/x&gt;&lt;y&gt;217&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b2829df22f0620107cd3af5df699b698"/&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Approval Action"&gt;50a78fa50a6a803f66d064255f7201a5&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;4&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;承認&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:12&lt;/sys_created_on&gt;&lt;sys_id&gt;a393d1362f0620107cd3af5df699b6f9&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:58&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="リクエストデモ（モバイル承認確認用）"&gt;9152d9f22f0620107cd3af5df699b6d0&lt;/workflow_version&gt;&lt;x&gt;443&lt;/x&gt;&lt;y&gt;37&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a393d1362f0620107cd3af5df699b6f9"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;a393d1362f0620107cd3af5df699b6f9&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:12&lt;/sys_created_on&gt;&lt;sys_id&gt;5ba3d9362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:12&lt;/sys_updated_on&gt;&lt;value&gt;approved&lt;/value&gt;&lt;variable display_value=""&gt;50ab35f70a6a803f76d36e1ebaf3639e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;a393d1362f0620107cd3af5df699b6f9&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:12&lt;/sys_created_on&gt;&lt;sys_id&gt;5ba3d9362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:12&lt;/sys_updated_on&gt;&lt;value&gt;approved&lt;/value&gt;&lt;variable display_value=""&gt;50ab35f70a6a803f76d36e1ebaf3639e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="承認"&gt;a393d1362f0620107cd3af5df699b6f9&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:12&lt;/sys_created_on&gt;&lt;sys_id&gt;17a3d9362f0620107cd3af5df699b63d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:12&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Approval - Group"&gt;354e911f0a0a029a00e6a0e6ad74206f&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;3&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;承認&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;f8b211362f0620107cd3af5df699b6a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:54&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="リクエストデモ（モバイル承認確認用）"&gt;9152d9f22f0620107cd3af5df699b6d0&lt;/workflow_version&gt;&lt;x&gt;147&lt;/x&gt;&lt;y&gt;47&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f8b211362f0620107cd3af5df699b6a7"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;11939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value=""&gt;a8a7bc7dc0a800666777a9bd9b84fef8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1360&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;15939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value=""&gt;a8a16056c0a800660449c1bbc94d797f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1370&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;19939d362f0620107cd3af5df699b63a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&amp;#13;
+//&amp;#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&amp;#13;
+// returning the overall approval state for all of the group(s).&amp;#13;
+//&amp;#13;
+// When called, the following variables are available to the script:&amp;#13;
+//&amp;#13;
+//    Overall for all of the groups that are part of this approval activity:&amp;#13;
+//        counts.total = total number of groups that are part of this approval&amp;#13;
+//        counts.approved = # of groups that approved so far&amp;#13;
+//        counts.rejected = # of groups that rejected so far&amp;#13;
+//        counts.requested = # of groups that are pending approval&amp;#13;
+//        counts.not_requested = # of groups that are not pending approval&amp;#13;
+//        counts.not_required = # of groups that approval is not required&amp;#13;
+//&amp;#13;
+//    And for each group:&amp;#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&amp;#13;
+//        groups[group_id].approved = # of users that approved so far&amp;#13;
+//        groups[group_id].rejected = # of users that rejected so far&amp;#13;
+//        groups[group_id].requested = # of users that are pending approval&amp;#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&amp;#13;
+//        groups[group_id].not_required = # of users that approval is not required&amp;#13;
+//&amp;#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&amp;#13;
+//&amp;#13;
+//        Note: Iterate the groups using:&amp;#13;
+//            for (var id in groups) {&amp;#13;
+//                 var group = groups[id];&amp;#13;
+//                 ...  group.total ...&amp;#13;
+//            }&amp;#13;
+&lt;/value&gt;&lt;variable display_value=""&gt;069e81530a0a0b264289c1e23fe52558&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;1d939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;any_each&lt;/value&gt;&lt;variable display_value=""&gt;0698d53c0a0a0b2627f7cf654de211b6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;51939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ac8459c0a8006628d8903b8b2e579b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;55939d362f0620107cd3af5df699b63a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value=""&gt;069bd78c0a0a0b267fa35f3d77e02a10&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;55939d362f0620107cd3af5df699b63d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ae0641c0a800664ae7b95978e88d56&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;59939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8aaecf5c0a8006617527ddc62f2d668&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;5d939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;1bd4c8c00a0a0b26635e191420fd194c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;115&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;91939d362f0620107cd3af5df699b63d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a29434c0a80066575097078b386f8d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;95939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8abc43ac0a800664b9b89a9f3f2c7a1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;99939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a5b2aac0a80066020adf74bd35c283&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;9d939d362f0620107cd3af5df699b63a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;aac291362f0620107cd3af5df699b69a&lt;/value&gt;&lt;variable display_value=""&gt;c35dc8950a0a0ba96248a70936f964a8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d1939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a63d44c0a8006617a1a568e6ee0d9e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;350&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d5939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;reject&lt;/value&gt;&lt;variable display_value=""&gt;4fc0fabe0a6a803f7f0af58179445dbb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d9939d362f0620107cd3af5df699b639&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a89323c0a80066046c6c1fd0df6475&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d9939d362f0620107cd3af5df699b63a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ad144ec0a8006638755cb3662df229&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;2050&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;dd939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//       var answer = [];&amp;#13;
+//       answer.push('id1');&amp;#13;
+//       answer.push('id2');&amp;#13;
+&lt;/value&gt;&lt;variable display_value=""&gt;069c53740a0a0b260e35ee0ead2dbbcc&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;5d939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;1bd4c8c00a0a0b26635e191420fd194c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;1d939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;any_each&lt;/value&gt;&lt;variable display_value=""&gt;0698d53c0a0a0b2627f7cf654de211b6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d9939d362f0620107cd3af5df699b639&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a89323c0a80066046c6c1fd0df6475&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;115&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;91939d362f0620107cd3af5df699b63d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a29434c0a80066575097078b386f8d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;51939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ac8459c0a8006628d8903b8b2e579b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;9d939d362f0620107cd3af5df699b63a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;aac291362f0620107cd3af5df699b69a&lt;/value&gt;&lt;variable display_value=""&gt;c35dc8950a0a0ba96248a70936f964a8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;350&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d5939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;reject&lt;/value&gt;&lt;variable display_value=""&gt;4fc0fabe0a6a803f7f0af58179445dbb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;95939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8abc43ac0a800664b9b89a9f3f2c7a1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;59939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8aaecf5c0a8006617527ddc62f2d668&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;99939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a5b2aac0a80066020adf74bd35c283&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d1939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a63d44c0a8006617a1a568e6ee0d9e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d9939d362f0620107cd3af5df699b63a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ad144ec0a8006638755cb3662df229&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;11939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value=""&gt;a8a7bc7dc0a800666777a9bd9b84fef8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;55939d362f0620107cd3af5df699b63d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ae0641c0a800664ae7b95978e88d56&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1360&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;15939d362f0620107cd3af5df699b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value=""&gt;a8a16056c0a800660449c1bbc94d797f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;1370&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;19939d362f0620107cd3af5df699b63a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&amp;#13;
+//&amp;#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&amp;#13;
+// returning the overall approval state for all of the group(s).&amp;#13;
+//&amp;#13;
+// When called, the following variables are available to the script:&amp;#13;
+//&amp;#13;
+//    Overall for all of the groups that are part of this approval activity:&amp;#13;
+//        counts.total = total number of groups that are part of this approval&amp;#13;
+//        counts.approved = # of groups that approved so far&amp;#13;
+//        counts.rejected = # of groups that rejected so far&amp;#13;
+//        counts.requested = # of groups that are pending approval&amp;#13;
+//        counts.not_requested = # of groups that are not pending approval&amp;#13;
+//        counts.not_required = # of groups that approval is not required&amp;#13;
+//&amp;#13;
+//    And for each group:&amp;#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&amp;#13;
+//        groups[group_id].approved = # of users that approved so far&amp;#13;
+//        groups[group_id].rejected = # of users that rejected so far&amp;#13;
+//        groups[group_id].requested = # of users that are pending approval&amp;#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&amp;#13;
+//        groups[group_id].not_required = # of users that approval is not required&amp;#13;
+//&amp;#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&amp;#13;
+//&amp;#13;
+//        Note: Iterate the groups using:&amp;#13;
+//            for (var id in groups) {&amp;#13;
+//                 var group = groups[id];&amp;#13;
+//                 ...  group.total ...&amp;#13;
+//            }&amp;#13;
+&lt;/value&gt;&lt;variable display_value=""&gt;069e81530a0a0b264289c1e23fe52558&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;55939d362f0620107cd3af5df699b63a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value=""&gt;069bd78c0a0a0b267fa35f3d77e02a10&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f8b211362f0620107cd3af5df699b6a7&lt;/document_key&gt;&lt;order&gt;2050&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;dd939d362f0620107cd3af5df699b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//       var answer = [];&amp;#13;
+//       answer.push('id1');&amp;#13;
+//       answer.push('id2');&amp;#13;
+&lt;/value&gt;&lt;variable display_value=""&gt;069c53740a0a0b260e35ee0ead2dbbcc&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="承認"&gt;f8b211362f0620107cd3af5df699b6a7&lt;/activity&gt;&lt;condition&gt;activity.result == 'approved' || activity.result == 'skipped'&lt;/condition&gt;&lt;condition_default display_value="Approved"&gt;586cdc4c0a0a0b5c00888cdfcb07778b&lt;/condition_default&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Approved&lt;/name&gt;&lt;order&gt;1&lt;/order&gt;&lt;short_description&gt;Approval request was approved&lt;/short_description&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;dd939d362f0620107cd3af5df699b63d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="承認"&gt;f8b211362f0620107cd3af5df699b6a7&lt;/activity&gt;&lt;condition&gt;activity.result == 'rejected'&lt;/condition&gt;&lt;condition_default display_value="Rejected"&gt;586d9d960a0a0b5c00509314d15d50d8&lt;/condition_default&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;false&lt;/is_positive&gt;&lt;name&gt;Rejected&lt;/name&gt;&lt;order&gt;2&lt;/order&gt;&lt;short_description&gt;Approval request was rejected&lt;/short_description&gt;&lt;skip_during_generate&gt;true&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d1939d362f0620107cd3af5df699b63f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:48&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Approval Action"&gt;50a78fa50a6a803f66d064255f7201a5&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;5&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;拒否&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;90b39d362f0620107cd3af5df699b6d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:36:00&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="リクエストデモ（モバイル承認確認用）"&gt;9152d9f22f0620107cd3af5df699b6d0&lt;/workflow_version&gt;&lt;x&gt;286&lt;/x&gt;&lt;y&gt;213&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=90b39d362f0620107cd3af5df699b6d8"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;90b39d362f0620107cd3af5df699b6d8&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;f3b3d9362f0620107cd3af5df699b642&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:31&lt;/sys_updated_on&gt;&lt;value&gt;rejected&lt;/value&gt;&lt;variable display_value=""&gt;50ab35f70a6a803f76d36e1ebaf3639e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;90b39d362f0620107cd3af5df699b6d8&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;f3b3d9362f0620107cd3af5df699b642&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:31&lt;/sys_updated_on&gt;&lt;value&gt;rejected&lt;/value&gt;&lt;variable display_value=""&gt;50ab35f70a6a803f76d36e1ebaf3639e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="拒否"&gt;90b39d362f0620107cd3af5df699b6d8&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;3fb3d9362f0620107cd3af5df699b642&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:31&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;3fb3d9362f0620107cd3af5df699b642&lt;/condition&gt;&lt;from display_value="拒否"&gt;90b39d362f0620107cd3af5df699b6d8&lt;/from&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:52&lt;/sys_created_on&gt;&lt;sys_id&gt;20d351762f0620107cd3af5df699b694&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:52&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;b2829df22f0620107cd3af5df699b698&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Rejected"&gt;d1939d362f0620107cd3af5df699b63f&lt;/condition&gt;&lt;from display_value="承認"&gt;f8b211362f0620107cd3af5df699b6a7&lt;/from&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:43&lt;/sys_created_on&gt;&lt;sys_id&gt;56c39d362f0620107cd3af5df699b643&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:43&lt;/sys_updated_on&gt;&lt;to display_value="拒否"&gt;90b39d362f0620107cd3af5df699b6d8&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;17a3d9362f0620107cd3af5df699b63d&lt;/condition&gt;&lt;from display_value="承認"&gt;a393d1362f0620107cd3af5df699b6f9&lt;/from&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:35:56&lt;/sys_created_on&gt;&lt;sys_id&gt;7dd3dd362f0620107cd3af5df699b6ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:56&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;b2829df22f0620107cd3af5df699b698&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Approved"&gt;dd939d362f0620107cd3af5df699b63d&lt;/condition&gt;&lt;from display_value="承認"&gt;f8b211362f0620107cd3af5df699b6a7&lt;/from&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;9293d1362f0620107cd3af5df699b646&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:35:39&lt;/sys_updated_on&gt;&lt;to display_value="承認"&gt;a393d1362f0620107cd3af5df699b6f9&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;76829df22f0620107cd3af5df699b697&lt;/condition&gt;&lt;from display_value="Begin"&gt;36829df22f0620107cd3af5df699b696&lt;/from&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:30:16&lt;/sys_created_on&gt;&lt;sys_id&gt;fa829df22f0620107cd3af5df699b698&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:34:54&lt;/sys_updated_on&gt;&lt;to display_value="承認"&gt;f8b211362f0620107cd3af5df699b6a7&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;&lt;estimated_run_time/&gt;&lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;&lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;&lt;sys_created_by&gt;takamshimizu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-04 08:30:16&lt;/sys_created_on&gt;&lt;sys_id&gt;7682d5b22f0620107cd3af5df699b680&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;takamshimizu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-04 08:30:16&lt;/sys_updated_on&gt;&lt;workflow_version display_value="リクエストデモ（モバイル承認確認用）"&gt;9152d9f22f0620107cd3af5df699b6d0&lt;/workflow_version&gt;&lt;/wf_estimated_runtime_config&gt;&lt;wf_workflow_version action="update_multiple" query="workflow=3e829df22f0620107cd3af5df699b694^sys_id!=9152d9f22f0620107cd3af5df699b6d0"&gt;&lt;published&gt;false&lt;/published&gt;&lt;/wf_workflow_version&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1233082688</payload_hash>
+        <record_name>リクエストデモ（モバイル承認確認用）</record_name>
+        <reverted_from/>
+        <source>c012f0f62f8220107cd3af5df699b647</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:36:06</sys_created_on>
+        <sys_id>14e391762f0620107cd3af5df699b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776c2f2ac50000001</sys_recorded_at>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:36:06</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>9ce39176250620103563c5d6002dad5c</update_guid>
+        <update_guid_history>9ce39176250620103563c5d6002dad5c:-1233082688</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="リクエストデモ（モバイル承認確認用）">d72595b62f0620107cd3af5df699b67b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:41:46</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>48da9e08bb554acf8b565ea5289b1fe1</sys_id>
+        <sys_metadata>3e829df22f0620107cd3af5df699b694</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>リクエストデモ（モバイル承認確認用）</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_scope_delete display_value="">4402f560479645daa80ff86a5521c9f9</sys_scope_delete>
+        <sys_update_name>wf_workflow_3e829df22f0620107cd3af5df699b694</sys_update_name>
+        <sys_update_version display_value="wf_workflow_3e829df22f0620107cd3af5df699b694">14e391762f0620107cd3af5df699b65d</sys_update_version>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:41:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

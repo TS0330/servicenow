@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Bag">081d8da2b72200108223e126de11a9c9</icon>
+        <name>Detail：承認一覧（リクエストのみ）フォーム</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 08:04:08</sys_created_on>
+        <sys_id>4c9c09be2fc220107cd3af5df699b64b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Detail：承認一覧（リクエストのみ）フォーム</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_details_screen_4c9c09be2fc220107cd3af5df699b64b</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-05 01:40:23</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_sg_details_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c9c09be2fc220107cd3af5df699b64b"/>
+</record_update>

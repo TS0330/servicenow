@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_m2m_filter_condition_attribute">
+    <sys_sg_filter_condition_m2m_filter_condition_attribute action="INSERT_OR_UPDATE">
+        <filter_condition display_value="承認 sys_created_by filter condition">0214707a2f8220107cd3af5df699b65b</filter_condition>
+        <filter_condition_attribute display_value="Operator">4e14707a2f8220107cd3af5df699b658</filter_condition_attribute>
+        <sys_class_name>sys_sg_filter_condition_m2m_filter_condition_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 06:17:13</sys_created_on>
+        <sys_id>0214707a2f8220107cd3af5df699b65f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_m2m_filter_condition_attribute_0214707a2f8220107cd3af5df699b65f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 06:17:13</sys_updated_on>
+    </sys_sg_filter_condition_m2m_filter_condition_attribute>
+</record_update>
