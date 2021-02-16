@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>承認一覧（リクエストのみ）</name>
+        <query_condition table="sysapproval_approver">sysapprovalSTARTSWITHREQ^ORsysapprovalSTARTSWITHRITM^approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="sysapproval" goto="false" newquery="false" operator="STARTSWITH" or="false" value="REQ"/>
+            <item endquery="false" field="sysapproval" goto="false" newquery="false" operator="STARTSWITH" or="true" value="RITM"/>
+            <item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:59:15</sys_created_on>
+        <sys_id>e47b4d3e2fc220107cd3af5df699b675</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>承認一覧（リクエストのみ）</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_data_item_e47b4d3e2fc220107cd3af5df699b675</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 08:55:22</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=e47b4d3e2fc220107cd3af5df699b675"/>
+</record_update>

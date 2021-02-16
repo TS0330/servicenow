@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="リクエストアイテム詳細">c6a3b48f2f0220107cd3af5df699b6e2</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name>sysapproval</field_name>
+        <icon/>
+        <label/>
+        <location>field</location>
+        <name/>
+        <order>20</order>
+        <parent>4c9c09be2fc220107cd3af5df699b64b</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-05 00:57:11</sys_created_on>
+        <sys_id>6364388f2f0220107cd3af5df699b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_button_instance_6364388f2f0220107cd3af5df699b6f3</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-05 00:57:11</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=6364388f2f0220107cd3af5df699b6f3"/>
+</record_update>

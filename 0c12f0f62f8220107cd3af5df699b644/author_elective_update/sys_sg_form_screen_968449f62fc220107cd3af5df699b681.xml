@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="承認一覧（変更管理） Icon">1a8449f62fc220107cd3af5df699b67c</icon>
+        <item_view display_value="承認一覧（変更管理） Header Item View">9e8449f62fc220107cd3af5df699b67e</item_view>
+        <name>承認一覧（変更管理）</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:29:04</sys_created_on>
+        <sys_id>968449f62fc220107cd3af5df699b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認一覧（変更管理）</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_form_screen_968449f62fc220107cd3af5df699b681</sys_update_name>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:29:04</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_sg_form_screen>
+    <sys_translated_text action="DELETE" query="documentkey=968449f62fc220107cd3af5df699b681"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</application>
+        <file_path/>
+        <instance_id>0442b350db3b9b441ddcf22ebf961927</instance_id>
+        <instance_name>dev68850</instance_name>
+        <name>sys_sg_form_screen_968449f62fc220107cd3af5df699b681</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen"><sys_sg_form_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><data_item/><description/><dynamic_prefetch_count/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="承認一覧（変更管理） Icon">1a8449f62fc220107cd3af5df699b67c</icon><item_view display_value="承認一覧（変更管理） Header Item View">9e8449f62fc220107cd3af5df699b67e</item_view><name>承認一覧（変更管理）</name><roles_override/><sys_class_name>sys_sg_form_screen</sys_class_name><sys_created_by>takamshimizu</sys_created_by><sys_created_on>2021-02-04 07:29:04</sys_created_on><sys_id>968449f62fc220107cd3af5df699b681</sys_id><sys_mod_count>0</sys_mod_count><sys_name>承認一覧（変更管理）</sys_name><sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package><sys_policy/><sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope><sys_update_name>sys_sg_form_screen_968449f62fc220107cd3af5df699b681</sys_update_name><sys_updated_by>takamshimizu</sys_updated_by><sys_updated_on>2021-02-04 07:29:04</sys_updated_on><table>sysapproval_approver</table></sys_sg_form_screen><sys_translated_text action="delete_multiple" query="documentkey=968449f62fc220107cd3af5df699b681"/></record_update>]]></payload>
+        <payload_hash>1575614022</payload_hash>
+        <record_name>承認一覧（変更管理）</record_name>
+        <reverted_from/>
+        <source>c012f0f62f8220107cd3af5df699b647</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-04 07:29:04</sys_created_on>
+        <sys_id>5e8449f62fc220107cd3af5df699b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776bf1cb060000001</sys_recorded_at>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:29:04</sys_updated_on>
+        <type>Form Screen</type>
+        <update_guid>568449f6efc22010e30712dfadd49f83</update_guid>
+        <update_guid_history>568449f6efc22010e30712dfadd49f83:1575614022</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>takamshimizu</sys_created_by>
+        <sys_created_on>2021-02-05 01:38:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_form_screen">sys_sg_form_screen</sys_db_object>
+        <sys_id>c366b2cb5d4e4d5db46c2e7699d17949</sys_id>
+        <sys_metadata>968449f62fc220107cd3af5df699b681</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認一覧（変更管理）</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_scope_delete display_value="">4402f560479645daa80ff86a5521c9f9</sys_scope_delete>
+        <sys_update_name>sys_sg_form_screen_968449f62fc220107cd3af5df699b681</sys_update_name>
+        <sys_update_version display_value="sys_sg_form_screen_968449f62fc220107cd3af5df699b681">5e8449f62fc220107cd3af5df699b683</sys_update_version>
+        <sys_updated_by>takamshimizu</sys_updated_by>
+        <sys_updated_on>2021-02-05 01:38:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

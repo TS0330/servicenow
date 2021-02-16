@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>group</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>90</order>
+        <record_id_field/>
+        <screen display_value="Details">d242b4f62f8220107cd3af5df699b63c</screen>
+        <screen_data_item_table>sysapproval_approver</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 06:09:21</sys_created_on>
+        <sys_id>ae42b4f62f8220107cd3af5df699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>group</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_update_name>sys_sg_screen_field_ae42b4f62f8220107cd3af5df699b699</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 06:09:21</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_translated_text action="DELETE" query="documentkey=ae42b4f62f8220107cd3af5df699b699"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</application>
+        <file_path/>
+        <instance_id>0442b350db3b9b441ddcf22ebf961927</instance_id>
+        <instance_name>dev68850</instance_name>
+        <name>sys_sg_screen_field_ae42b4f62f8220107cd3af5df699b699</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>group</data_item_field_name><description_text/><description_text_field/><description_text_type/><field_name/><hidden>false</hidden><order>90</order><record_id_field/><screen display_value="Details">d242b4f62f8220107cd3af5df699b63c</screen><screen_data_item_table>sysapproval_approver</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-04 06:09:21</sys_created_on><sys_id>ae42b4f62f8220107cd3af5df699b699</sys_id><sys_mod_count>0</sys_mod_count><sys_name>group</sys_name><sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package><sys_policy/><sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope><sys_update_name>sys_sg_screen_field_ae42b4f62f8220107cd3af5df699b699</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-04 06:09:21</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field><sys_translated_text action="delete_multiple" query="documentkey=ae42b4f62f8220107cd3af5df699b699"/></record_update>]]></payload>
+        <payload_hash>-837260497</payload_hash>
+        <record_name>group</record_name>
+        <reverted_from/>
+        <source>c012f0f62f8220107cd3af5df699b647</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 06:09:25</sys_created_on>
+        <sys_id>ef42f4f62f8220107cd3af5df699b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776ba8df5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 06:09:25</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>6b42f4f69a82201034f7d4903f7c4298</update_guid>
+        <update_guid_history>6b42f4f69a82201034f7d4903f7c4298:-837260497</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 06:19:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>80bb7974c7f14694824e095a0440f3c4</sys_id>
+        <sys_metadata>ae42b4f62f8220107cd3af5df699b699</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>group</sys_name>
+        <sys_package display_value="agent mobile" source="x_515092_agent_mob">0c12f0f62f8220107cd3af5df699b644</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="agent mobile">0c12f0f62f8220107cd3af5df699b644</sys_scope>
+        <sys_scope_delete display_value="">4402f560479645daa80ff86a5521c9f9</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_ae42b4f62f8220107cd3af5df699b699</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_ae42b4f62f8220107cd3af5df699b699">ef42f4f62f8220107cd3af5df699b698</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 06:19:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
